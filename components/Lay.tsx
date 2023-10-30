@@ -34,9 +34,9 @@ const Lay = () => {
             <div className='py-2 w-[150px] pl-4 hover:bg-black'>
                 <p>Criterion - 8</p>
             </div>
-            {/* <div className='py-2 w-[150px] pl-4 hover:bg-black'>
+            <div className='py-2 w-[150px] pl-4 hover:bg-black'>
                 <a href="/icw1a9.pdf">Helllo</a>
-            </div> */}
+            </div>
 
             {/* <div className='py-2 w-[150px] pl-4 hover:bg-black'>
             <a href="/icw1a9.pdf" target="_blank" rel="noopener noreferrer">Download FIle</a>
