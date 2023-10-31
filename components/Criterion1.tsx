@@ -125,7 +125,7 @@ const Criterion1 = () => {
                         <thead>
                           <tr>
                             <th className='p-2 border border-black'>
-                              <p className='text-center border text-lg font-bold text-black'>Year</p>
+                              <p className='text-center  text-lg font-bold text-black'>Year</p>
                             </th>
                             <th className='p-2 border border-black'>
                               <p className='text-center text-lg font-bold text-black'>2020-2021</p>
