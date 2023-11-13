@@ -48,8 +48,8 @@ const Criterion1 = () => {
                           <p className='text-left  text-lg text-black'>
                           While designing the curriculum, the institution lays emphasis on developing conceptual skills, human skills and technical skills of the individual. It is ensured that the overall curriculum and its components contribute effectively in the attainment of POs, PSOs and PEOs which in turn relate to the Vision and Mission of the Department and institute as well.  The initial version of the curriculum is prepared by having the above design criteria, through discussions with stakeholders. The proposed curriculum is then discussed in DAC (Department Academic Committee) and is put forth to BOS (Board of Studies) where the experts from industry, academia, Alumni in addition to senior faculty members. The curriculum is then placed for approval during the Academic Council (AC). Curriculum is finally evolved and published in MLR Institute of Technology.                          </p>                      
                       </li>
-                      <a href="/1.1.1_claim_form.pdf " className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Claim Form</button>
+                      <a href="/1.1.1_claim_form.pdf " className='w-full  text-left flex' target="_blank" rel="noopener noreferrer">
+                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 text-left hover:text-black '>Claim Form</button>
                       </a>
                     </ul>
                   </div>
@@ -90,13 +90,13 @@ const Criterion1 = () => {
                           </p>
                       </li>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of Relevant Academic Council</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of Relevant Academic Council</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of Relevant BOS Meetings</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of Relevant BOS Meetings</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Details of Program Syllabus Revision in Last 5 Years </button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Details of Program Syllabus Revision in Last 5 Years </button>
                       </a>
                     </ul>
                   </div>
@@ -129,20 +129,20 @@ const Criterion1 = () => {
                             File Description
                           </p>
                       </li>
-                      <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Program/Curriculum/Syllabus of the courses</button>
+                      <a href="/" className='w-full ' target="_blank" rel="noopener noreferrer">
+                        <button className='bg-[#40a33e] text-left  w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Program/Curriculum/Syllabus of the courses</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>MoU'swith revelant organizations for these courses, if any</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>MoU'swith revelant organizations for these courses, if any</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of the Boards of Studies</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of the Boards of Studies</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Academic Council Minutes</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Academic Council Minutes</button>
                       </a>
                       <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Details of Program Syllabus Revision in Last 5 Years</button>
+                        <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Details of Program Syllabus Revision in Last 5 Years</button>
                       </a>
                     </ul>
                   </div>

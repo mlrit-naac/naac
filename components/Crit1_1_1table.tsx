@@ -23,6 +23,7 @@ const Crit1_1_1table = () => {
                             <th className='p-2 border border-black'>
                               <p className='text-center  text-lg font-bold text-black'>2016-2017</p>
                             </th>
+                            
                           </tr>
                         </thead>
                         <tbody>
@@ -45,6 +46,7 @@ const Crit1_1_1table = () => {
                             <td className='p-2 border border-black'>
                               <p className='text-center  text-lg text-black'>289</p>
                             </td>
+                            
                           </tr>
                           <tr>
                             <td className='p-2 border border-black'>
@@ -65,6 +67,7 @@ const Crit1_1_1table = () => {
                             <td className='p-2 border border-black'>
                               <p className='text-center  text-lg text-black'>444</p>
                             </td>
+                            
                           </tr>
                         </tbody>
 

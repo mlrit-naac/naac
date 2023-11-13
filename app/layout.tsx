@@ -37,14 +37,16 @@ export default function RootLayout({
           <div className='flex flex-col bg-[#129104] h-[100vh] z-10 w-[300px]'>
             
             <div className='p-4'>
-              <p>Home</p>
+              <a href='/'>Home</a>
             </div>
             <div className='p-4'>
-              <p>Extended Profile</p>
+              <p>Criterion-1</p>
             </div>
             <div className='px-6 flex flex-col gap-1'>
-              <a href='/#c1' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>Programs</a>
-              <a href='/crt/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>Programs</a>
+              <a href='/criterion1/1.1' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>1.1</a>
+              <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.2</a>
+              <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.3</a>
+              <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.4</a>
             </div>
           </div>
       </nav>
