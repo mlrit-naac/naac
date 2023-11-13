@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Crit1_1_1table from './Crit1_1_1table'
 const Criterion1 = () => {
   return (
-    <div className='bg-[#dcf3da] w-full flex '>
-        <div className='py-[8px]  bg-[#dcf3da]  w-full  px-[20px]'>
+    <div className='bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[300px] ' id='c1'>
+        <div className='py-[30px]  bg-[#dcf3da]  w-full  px-[20px]'>
             <div className='  min-h-screen flex flex-col justify-start'>
                 <div className='flex flex-row justify-center items-center bg-[#2196f3] py-2'>
                     <p className=' text-4xl'>Criterion 1 - Curricular Aspects</p>
@@ -101,10 +101,11 @@ const Criterion1 = () => {
                     </ul>
                   </div>
                 </div>
+                <Crit1_1_1table  />
                 <div className='flex flex-row py-8 px-4 border-b-2 border-gray-400'>
                   <div className='px-8'><p className='text-left font-bold text-lg text-black'>1.1.3</p></div>
                   <div>
-                    <p className='text-left font-bold text-lg text-black'>
+                    <p className='text-left font-bold text-lg flex flex-row flex-wrap text-black'>
                     Average percentage of courses having focus on employability/entrepreneurship/ skill development offered by the institution during the last five years                    </p>
                     <ul>
                       <li>
@@ -116,78 +117,13 @@ const Criterion1 = () => {
                             Response: 87%                          
                           </p>                      
                       </li>
+                       
                       <li>
                           <p className='text-left  text-lg font-bold text-black'>
                             1.1.3.1 Number of courses having focus on employability/ entrepreneurship/ skill development year-wise during the last five years                         
                           </p>
                       </li>
-                      <table className="table-auto border-collapse border border-black bg-white">
-                        <thead>
-                          <tr>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center  text-lg font-bold text-black'>Year</p>
-                            </th>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center text-lg font-bold text-black'>2020-2021</p>
-                            </th>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center  text-lg font-bold text-black'>2019-2020</p>
-                            </th>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center  text-lg font-bold text-black'>2018-2019</p>
-                            </th>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center  text-lg font-bold text-black'>2017-2018</p>
-                            </th>
-                            <th className='p-2 border border-black'>
-                              <p className='text-center  text-lg font-bold text-black'>2016-2017</p>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>Focusing course on various skill</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>561</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>572</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>572</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center text-lg text-black'>552</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>289</p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>Courses offered</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>576</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>634</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>634</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center text-lg text-black'>597</p>
-                            </td>
-                            <td className='p-2 border border-black'>
-                              <p className='text-center  text-lg text-black'>444</p>
-                            </td>
-                          </tr>
-                        </tbody>
-
-                      </table>
+                      
                       <li>
                           <p className='text-left  text-lg font-bold text-black'>
                             File Description

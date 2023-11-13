@@ -1,8 +1,10 @@
+// "use client"
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-
+// import { usePathname } from 'next/navigation'
 const inter = Inter({ subsets: ['latin'] })
+// const currenr = usePathname();
 
 export const metadata: Metadata = {
   title: 'Mlrit',
@@ -17,7 +19,38 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      
+
+     
+       <header className='w-full h-[100px] fixed top-0 flex flex-row  bg-white'>
+        <img src="/mlrit.jpeg" alt="mlrit" className='h-[100px]'/>
+        <div className='flex flex-row justify-center w-full'>
+          <img src="https://mlritnaac.web.app/images/header_cut.png" alt="" />
+        </div>
+       </header>
+       <div className='flex flex-row'>
+        {children}
+      
+        
+        <nav className='bg-white hidden lg:flex fixed top-[100px] overflow-y-auto left-0'>
+          <div className='flex flex-col bg-[#129104] h-[100vh] z-10 w-[300px]'>
+            
+            <div className='p-4'>
+              <p>Home</p>
+            </div>
+            <div className='p-4'>
+              <p>Extended Profile</p>
+            </div>
+            <div className='px-6 flex flex-col gap-1'>
+              <a href='/#c1' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>Programs</a>
+              <a href='/crt/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>Programs</a>
+            </div>
+          </div>
+      </nav>
+      </div>
+        
+      </body>
     </html>
   )
 }
