@@ -101,7 +101,6 @@ const Criterion1 = () => {
                     </ul>
                   </div>
                 </div>
-                <Crit1_1_1table  />
                 <div className='flex flex-row py-8 px-4 border-b-2 border-gray-400'>
                   <div className='px-8'><p className='text-left font-bold text-lg text-black'>1.1.3</p></div>
                   <div>
@@ -112,6 +111,7 @@ const Criterion1 = () => {
                           <p className='text-left  text-lg text-black'>
                           MLR Institute of Technology strives to make industry ready students through various courses offered under different programs. Revision in syllabus of various courses and introduction of new programs is caused by the action taken on the feedback provided by different stakeholders. The programmes are designed to nurture various skills among the students. The courses are designed with a view to build employability, entrepreneurship and skill development among the students. The syllabus is framed to cultivate research culture in young minds by including all cutting edge technologies and hands on practices. </p>                      
                       </li>
+                      <br />
                       <li>
                           <p className='text-left  text-xl text-blue-500 font-extrabold'>
                             Response: 87%                          
@@ -122,12 +122,8 @@ const Criterion1 = () => {
                           <p className='text-left  text-lg font-bold text-black'>
                             1.1.3.1 Number of courses having focus on employability/ entrepreneurship/ skill development year-wise during the last five years                         
                           </p>
-                      </li>
-                      
-                      <li>
-                          <p className='text-left  text-lg font-bold text-black'>
-                            File Description
-                          </p>
+                          <Crit1_1_1table  />
+
                       </li>
                       <a href="/" className='w-full ' target="_blank" rel="noopener noreferrer">
                         <button className='bg-[#40a33e] text-left  w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Program/Curriculum/Syllabus of the courses</button>
