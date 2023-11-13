@@ -29,7 +29,7 @@ export default function RootLayout({
           <img src="https://mlritnaac.web.app/images/header_cut.png" alt="" />
         </div>
        </header>
-       <div className='flex flex-row'>
+       <div className='flex flex-row w-full'>
         {children}
       
         
@@ -40,11 +40,14 @@ export default function RootLayout({
               <a href='/'>Home</a>
             </div>
             <div className='p-4'>
+              <p>Extended Profile</p>
+            </div>
+            <div className='p-4'>
               <p>Criterion-1</p>
             </div>
             <div className='px-6 flex flex-col gap-1'>
               <a href='/criterion1/1.1' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>1.1</a>
-              <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.2</a>
+              <a href='/criterion1/1.2' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.2</a>
               <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.3</a>
               <a href='/criterion1/1.1' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.4</a>
             </div>
