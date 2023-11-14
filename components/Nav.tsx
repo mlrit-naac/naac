@@ -3,7 +3,7 @@ const items = ['Home','Criterion--1','Criterion-2','Criterion-3','Criterion-4','
 const Nav = () => {
   return (
     <div>
-        <div className='bg-[#129104] w-[250px] hidden lg:flex overflow-y-auto '>
+        <div className='bg-[#129104] w-[250px] hidden lg:flex overflow-y-auto fixed top-[100px] left-0 h-[99vh]'>
             <ul>
                 
             </ul>

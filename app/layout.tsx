@@ -32,7 +32,7 @@ export default function RootLayout({
         </div>
        </header>
        <div className='flex flex-row w-full'>
-        <nav className='bg-[#129104] hidden lg:flex overflow-y-auto fixed  top-[100px] left-0'>
+        {/* <nav className='bg-[#129104] hidden lg:flex overflow-y-auto fixed  top-[100px] left-0'>
           <div className='flex flex-col h-[98vh] overflow-y-auto z-1 w-[300px]'>
             
             <div className='p-4'>
@@ -53,12 +53,12 @@ export default function RootLayout({
             <div className='p-4'>
               <p>Criterion-2</p>
             </div>
-            <div className='px-6 flex flex-col gap-1'>
+            <div className='px-6 flex flex-col gap-1'> */}
             {/* <a href='/criterion1/1.1' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>1.1</a>
               <a href='/criterion1/1.2' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.2</a>
               <a href='/criterion1/1.3' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.3</a>
               <a href='/criterion1/1.4' className='px-4 border-l-2 border-stone-300 hover:border-white active:border-red-600'>1.4</a> */}
-              {crt2.map(function(data){
+              {/* {crt2.map(function(data){
                 return(
                   <div>
                   <a href='/criterion1/1.2' className='px-4 border-l-2  border-stone-300 hover:border-white active:border-red-600'>{data.n}</a>
@@ -83,7 +83,7 @@ export default function RootLayout({
                                 
             </div>
           </div>
-      </nav>
+      </nav> */}
       {children}
 
       </div>
