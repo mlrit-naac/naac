@@ -1,13 +1,109 @@
 import React from 'react'
-const items = ['Home','Criterion--1','Criterion-2','Criterion-3','Criterion-4','Criterion-5','Criterion-6','Criterion-7']
+const crit1 = [{id:1,item:1.1},{id:2,item:1.2},{id:3,item:1.3},{id:4,item:1.4}]
+const crit2 = [{id:1,item:2.1},{id:2,item:2.2},{id:3,item:2.3},{id:4,item:2.4},{id:5,item:2.5},{id:6,item:2.6},{id:7,item:2.7}]
+const crit3 = [{id:1,item:3.1},{id:2,item:3.2},{id:3,item:3.3},{id:4,item:3.4},{id:5,item:3.5},{id:6,item:3.6},{id:7,item:3.7}]
+const crit4 = [{id:1,item:4.1},{id:2,item:4.2},{id:3,item:4.3},{id:4,item:4.4}]
+const crit5 = [{id:1,item:5.1},{id:2,item:5.2},{id:3,item:5.3},{id:4,item:5.4}]
+const crit6 = [{id:1,item:6.1},{id:2,item:6.2},{id:3,item:6.3},{id:4,item:6.4}]
+const crit7 = [{id:1,item:7.1},{id:2,item:7.2},{id:3,item:7.3}]
+
 const Nav = () => {
   return (
-    <div>
-        <div className='bg-[#129104] w-[250px] hidden lg:flex overflow-y-auto fixed top-[100px] left-0 h-[99vh]'>
-            <ul>
-                
-            </ul>
-
+    <div className='overflow-y-auto bg-[#129104]'>
+        <div className='bg-[#129104] w-[225px] hidden lg:flex flex-col overflow-auto overflow-y-auto fixed top-[100px] left-0 h-[100vh]'>
+            <div className=' px-6 pt-4'>
+              <a href='/' className='text-lg'>Home</a>
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/' className='text-lg'>Extended Profile</a>
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion1/1.1' className='text-lg'>Criterion-1</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit1.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion1/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion2/2.1' className='text-lg'>Criterion-2</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit2.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion2/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion3/3.1' className='text-lg'>Criterion-3</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit3.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion3/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion4/4.1' className='text-lg'>Criterion-4</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit4.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion4/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion5/5.1' className='text-lg'>Criterion-5</a>
+            </div> 
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit5.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion5/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion6/6.1' className='text-lg'>Criterion-6</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit6.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion6/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/criterion7/7.1' className='text-lg'>Criterion-7</a>
+            </div>
+            <div className='flex flex-col px-10 pt-4'>
+                    {crit7.map(function(data){
+                    return(
+                    <div>
+                        <a href={`/criterion7/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                    </div>
+                    )
+                    })}            
+            </div>
+            <div className='px-6 pt-4'>
+              <a href='/' className='text-lg'>Feedback</a>
+            </div>
         </div>
     </div>
   )
