@@ -3,7 +3,7 @@ import Crit1_1_1table from "./Crit1_1_1table";
 const Criterion1 = () => {
   return (
     <div
-      className="bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[300px] "
+      className="bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[225px] "
       id="c1"
     >
       <div className="py-[30px]  bg-[#dcf3da]  w-full  px-[20px]">

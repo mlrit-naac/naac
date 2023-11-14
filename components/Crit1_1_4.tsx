@@ -2,7 +2,7 @@ import React from 'react'
 
 const Crit1_1_4 = () => {
   return (
-    <div className='bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[300px] ' id='c1'>
+    <div className='bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[225px] ' id='c1'>
     <div className='py-[30px]  bg-[#dcf3da]  w-full  px-[20px]'>
         <div className='  min-h-screen flex flex-col justify-start'>
             <div className='flex flex-row justify-center items-center bg-[#2196f3] py-2'>
