@@ -37,19 +37,19 @@ const MobileNav = () => {
           <div
             className={`${
               c1opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -63,19 +63,19 @@ const MobileNav = () => {
           <div
             className={`${
               c2opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -88,19 +88,19 @@ const MobileNav = () => {
           <div
             className={`${
               c3opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -113,19 +113,19 @@ const MobileNav = () => {
           <div
             className={`${
               c4opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -138,19 +138,19 @@ const MobileNav = () => {
           <div
             className={`${
               c5opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -163,19 +163,19 @@ const MobileNav = () => {
           <div
             className={`${
               c6opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
@@ -188,19 +188,19 @@ const MobileNav = () => {
           <div
             className={`${
               c7opened ? "flex" : "hidden"
-            } flex flex-col px-10 py-2 bg-[#129104]`}
+            } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
             <a href="#" onClick={handleNav}>
-              1.1
+              Criterion - 1.1
             </a>
           </div>
         </li>
