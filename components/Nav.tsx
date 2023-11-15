@@ -22,7 +22,7 @@ const Nav = () => {
                     {extendedprofile.map(function(data){
                     return(
                     <div>
-                        <a href={`/}`} key={data.id}  className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2  '>{data.item}</a>
+                        <a href={`/}`} key={data.id}  className=' pl-2 border-stone-300 hover:border-white border-l-2  '>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -34,7 +34,7 @@ const Nav = () => {
                     {crit1.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion1/${data.item}`} key={data.id}  className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2  '>{data.item}</a>
+                        <a href={`/criterion1/${data.item}`} key={data.id}  className=' pl-2 border-stone-300 hover:border-white border-l-2  '>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -46,7 +46,7 @@ const Nav = () => {
                     {crit2.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion2/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion2/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -58,7 +58,7 @@ const Nav = () => {
                     {crit3.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion3/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion3/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -70,7 +70,7 @@ const Nav = () => {
                     {crit4.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion4/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion4/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -82,7 +82,7 @@ const Nav = () => {
                     {crit5.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion5/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion5/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -94,7 +94,7 @@ const Nav = () => {
                     {crit6.map(function(data){
                     return(
                     <div >
-                        <a href={`/criterion6/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion6/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
@@ -106,7 +106,7 @@ const Nav = () => {
                     {crit7.map(function(data){
                     return(
                     <div>
-                        <a href={`/criterion7/${data.item}`} key={data.id} className=' text-sm pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
+                        <a href={`/criterion7/${data.item}`} key={data.id} className=' pl-2 border-stone-300 hover:border-white border-l-2'>{data.item}</a>
                     </div>
                     )
                     })}            
