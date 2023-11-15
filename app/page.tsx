@@ -1,18 +1,9 @@
 import React from 'react'
-import Criterion1 from '@/components/Criterion1_1'
-import Nav from '@/components/Nav'
+
 const page = () => {
   return (
-    <div className='bg-white min-h-screen'>
-      {/* <header className='w-full h-[100px] fixed flex flex-row  bg-white'>
-        <img src="/mlrit.jpeg" alt="mlrit" className='h-[100px]'/>
-        <div className='flex flex-row justify-center w-full'>
-          <img src="https://mlritnaac.web.app/images/header_cut.png" alt="" />
-        </div>
-      </header> */}
-      {/* <Nav /> */}
-      {/* <Criterion1 /> */}
-
+    <div className='bg-white  lg:ml-[225px] lg:mt-[100px] w-full flex flex-row justify-center  p-8 py-12'>
+      <img src="https://mlritnaac.web.app/images/home_page.png" className='center' alt="" width={1100} />
     </div>
   )
 }
