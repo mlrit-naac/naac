@@ -39,15 +39,15 @@ const Criterion1_2 = () => {
                     </ul>
                     <br />
                     <Crit1_2table/>
-                    <a href="/" className='w-full ' target="_blank" rel="noopener noreferrer">
-                        <button className='bg-[#40a33e] text-left  w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of Relevant Academic Council</button>
+                    <a href="/criterion1/1.2/1.2.1/claimform.pdf" className='w-full ' target="_blank" rel="noopener noreferrer">
+                        <button className='bg-[#40a33e] text-left  w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Claim Form</button>
                     </a>
-                    <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
+                    {/* <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
                         <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Minutes of relevant Academic BOS</button>
                     </a>
                     <a href="/" className='w-full  text-left' target="_blank" rel="noopener noreferrer">
                         <button className='bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black '>Institutional data in prescribed format</button>
-                    </a>
+                    </a> */}
                   </div>
                 </div> 
                 <div className='flex flex-row py-8 px-4 border-b-2 border-gray-400'>
