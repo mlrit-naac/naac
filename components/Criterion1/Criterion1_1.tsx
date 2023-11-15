@@ -181,35 +181,16 @@ const Criterion1 = () => {
                   </p>
                 </li>
                 <a
-                  href="/"
+                  href="/criterion1/1.1/1.1.2/claimform.pdf"
                   className="w-full  text-left"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black ">
-                    Minutes of Relevant Academic Council
+                    Claim Form                  
                   </button>
                 </a>
-                <a
-                  href="/"
-                  className="w-full  text-left"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black ">
-                    Minutes of Relevant BOS Meetings
-                  </button>
-                </a>
-                <a
-                  href="/"
-                  className="w-full  text-left"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black ">
-                    Details of Program Syllabus Revision in Last 5 Years{" "}
-                  </button>
-                </a>
+                
               </ul>
             </div>
           </div>
