@@ -106,7 +106,7 @@ const Criterion1 = () => {
                   </p>
                 </li>
                 <a
-                  href="/1.1.1_claim_form.pdf "
+                  href="http://localhost:3000/1.1.1_claim_form.pdf "
                   className="w-full  text-left flex"
                   target="_blank"
                   rel="noopener noreferrer"
