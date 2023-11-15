@@ -39,17 +39,17 @@ const MobileNav = () => {
               c1opened ? "flex" : "hidden"
             } flex flex-col pl-10 py-2 bg-[#129104]`}
           >
-            <a href="#" onClick={handleNav}>
+            <a href="/criterion1/1.1" onClick={handleNav}>
               Criterion - 1.1
             </a>
-            <a href="#" onClick={handleNav}>
-              Criterion - 1.1
+            <a href="/criterion1/1.2" onClick={handleNav}>
+              Criterion - 1.2
             </a>
-            <a href="#" onClick={handleNav}>
-              Criterion - 1.1
+            <a href="/criterion1/1.3" onClick={handleNav}>
+              Criterion - 1.3
             </a>
-            <a href="#" onClick={handleNav}>
-              Criterion - 1.1
+            <a href="/criterion1/1.4" onClick={handleNav}>
+              Criterion - 1.4
             </a>
           </div>
         </li>
