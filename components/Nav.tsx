@@ -114,6 +114,7 @@ const Nav = () => {
             <div className='px-6 py-4'>
               <a href='/' className='text-lg'>Feedback</a>
             </div>
+            <div></div>
         </div>
     </div>
   );
