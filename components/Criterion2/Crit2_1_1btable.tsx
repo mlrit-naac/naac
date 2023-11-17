@@ -1,6 +1,6 @@
 import React from 'react'
 const headings = [{id:1,item:'Year'},{id:2,item:'2020-2021'},{id:3,item:'2019-2020'},{id:4,item:'2018-2019'},{id:5,item:'2017-2018'},{id:6,item:'2016-2017'}]
-const row1 = [{id:1,item:'Number of Students Sanctioned'},{id:2,item:2075},{id:3,item:1992},{id:4,item:1916},{id:5,item:779},{id:6,item:757}]
+const row1 = [{id:1,item:'Number of Students Admitted'},{id:2,item:1212},{id:3,item:1055},{id:4,item:1100},{id:5,item:1146},{id:6,item:953}]
 const Crit2_1_1btable = () => {
     return (
         <table className=" table-auto overflow-x-auto border-collapse border border-black bg-white">

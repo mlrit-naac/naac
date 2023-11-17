@@ -128,7 +128,7 @@ const Criterion1_1_3 = () => {
                         Number of students undertaking field projects/internships
                     </p>
                     <p className='font-bold text-lg text-black'>
-                        ----------------------------------------------------------------------- X 100
+                        ---------------------------------------------------------------- X 100
                     </p>
                     <p className='font-bold text-lg text-black'>
                         student projects Total number of Students
