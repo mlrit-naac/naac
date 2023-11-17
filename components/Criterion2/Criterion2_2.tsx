@@ -111,9 +111,18 @@ const Criterion2_2 = () => {
                     Student - Full time teacher ratio (Data for the latest completedacademic year)                
                 </p>
                 <p className="text-left  text-lg text-black">
-                MLR Institute of Technology has framed a policy for admitting students for both PG and UG programs. The admissions are governed by the State Government norms as well as that of the University like JNTUH. The Institution strictly adheres to the state government admission policies for convener admissions and reservations. MLRIT has policy to admit the students in management sports quota and conversion of unfilled reservation seats in to general quota.
+                    MLR Institute of technology maintains the full time faculty ratio as per the norms given by the statutory bodies. 
                 </p>
-                <br />                
+                <br />
+                <p className='text-left font-bold text-lg text-black'>
+                   Data Requirement:              
+                </p>
+                <p className="text-left  text-lg text-black">
+                    Total number of students enrolled in the institution:   4513
+                </p>
+                <p className="text-left  text-lg text-black">
+                    Total number of full time teachers in the institution:   242
+                </p>
                 {/* {
                   buttons_2_1_2.map(function(data){
                     return(
