@@ -10,7 +10,7 @@ const Criterion2_1 = () =>{
     <div className='py-[30px]  bg-[#dcf3da]  w-full  px-[20px]'>
         <div className='  min-h-screen flex flex-col justify-start'>
             <div className='flex flex-row justify-center items-center bg-[#2196f3] py-2'>
-                <p className=' text-4xl'>Criterion 2 - Curricular Aspects</p>
+                <p className=' text-4xl'>Criterion 2 - Teaching-Learning and Evaluation</p>
             </div>
             <div className='p-8 border-b-2 border-gray-400'>
               <p className='text-2xl text-center text-red-500'>Key Indicator - 2.1 Student Enrollment and Profile</p>
