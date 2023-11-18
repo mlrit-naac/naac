@@ -124,8 +124,9 @@ const Criterion1 = () => {
             </div>
             <div>
               <p className="text-left font-bold text-lg text-black">
-                Percentage of Programmes where syllabus revision was carried out
-                during the last five years{" "}
+              Average percentage of courses having focus on employability/
+              entrepreneurship/ skill development offered by the institution during
+              the last five years
               </p>
               <ul>
                 <li>
@@ -194,7 +195,8 @@ const Criterion1 = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-row py-8 px-4 border-b-2 border-gray-400">
+
+          {/* <div className="flex flex-row py-8 px-4 border-b-2 border-gray-400">
             <div className="px-8">
               <p className="text-left font-bold text-lg text-black">1.1.3</p>
             </div>
@@ -287,7 +289,7 @@ const Criterion1 = () => {
                 </a>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

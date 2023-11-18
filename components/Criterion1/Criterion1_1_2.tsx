@@ -50,7 +50,7 @@ const Criterion1_2 = () => {
                     </a> */}
                   </div>
                 </div> 
-                <div className='flex flex-row py-8 px-4 border-b-2 border-gray-400'>
+                {/* <div className='flex flex-row py-8 px-4 border-b-2 border-gray-400'>
                   <div className='px-8'><p className='text-left font-bold text-lg text-black'>1.2.2</p></div>
                   <div>
                     <p className='text-left font-bold text-lg text-black'>
@@ -85,7 +85,7 @@ const Criterion1_2 = () => {
                       
                     </ul>
                   </div>
-                </div>
+                </div> */}
   
             </div>
 
