@@ -31,16 +31,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="w-full h-[100px] fixed top-0 flex flex-row  bg-[#dcf3da] ">
-          <img src="/mlrit.jpeg" alt="mlrit" className="h-[100px]" />
-          <div className="flex flex-row justify-center w-full">
+        <header className="w-full fixed top-0 flex flex-row  bg-[#dcf3da] ">
+          <img
+            src="/mlrit.jpeg"
+            alt="mlrit"
+            className="sm:h-[100px] max-sm:w-full"
+          />
+          <div className="flex flex-row justify-center w-full max-sm:hidden">
             <img src="https://mlritnaac.web.app/images/header_cut.png" alt="" />
           </div>
         </header>
         <div className="flex flex-row w-full">
-          <MobileNav />
-          <Nav/>
-          {children}
+          <div>
+            <MobileNav />
+            <Nav />
+          </div>
+          <div>{children}</div>
         </div>
       </body>
     </html>

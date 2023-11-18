@@ -3,7 +3,7 @@ import Crit1_1_1table from "./Crit1_1_1table";
 const Criterion1 = () => {
   return (
     <div
-      className="bg-[#dcf3da] max-w-full lg:mt-[100px]  flex lg:ml-[225px] "
+      className="bg-[#dcf3da] max-w-full text-white lg:mt-[100px] flex lg:ml-[225px] "
       id="c1"
     >
       <div className="py-[30px]  bg-[#dcf3da]  w-full  px-[20px]">
@@ -16,8 +16,8 @@ const Criterion1 = () => {
               Key Indicator - 1.1 Curriculum Design and Development
             </p>
           </div>
-          <div className="flex flex-row py-8 px-4 border-b-2 border-gray-400">
-            <div className="px-8">
+          <div className="sm:flex py-8 px-4 border-b-2 border-gray-400">
+            <div className="sm:px-8">
               <p className="text-left font-bold text-lg text-black">1.1.1</p>
             </div>
             <div>
@@ -118,8 +118,8 @@ const Criterion1 = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-row py-8 px-4 border-b-2 border-gray-400">
-            <div className="px-8">
+          <div className="sm:flex py-8 px-4 border-b-2 border-gray-400">
+            <div className="sm:px-8">
               <p className="text-left font-bold text-lg text-black">1.1.2</p>
             </div>
             <div>
@@ -187,26 +187,25 @@ const Criterion1 = () => {
                   rel="noopener noreferrer"
                 >
                   <button className="bg-[#40a33e] text-left w-full p-4 mt-4 hover:bg-slate-300 hover:text-black ">
-                    Claim Form                  
+                    Claim Form
                   </button>
                 </a>
-                
               </ul>
             </div>
           </div>
-          <div className="flex flex-row py-8 px-4 border-b-2 border-gray-400">
-            <div className="px-8">
+          <div className="sm:flex py-8 px-4 border-b-2 border-gray-400 ">
+            <div className="sm:px-8">
               <p className="text-left font-bold text-lg text-black">1.1.3</p>
             </div>
             <div>
-              <p className="text-left font-bold text-lg flex flex-row flex-wrap text-black">
+              <p className="text-left font-bold text-lg text-black">
                 Average percentage of courses having focus on
                 employability/entrepreneurship/ skill development offered by the
                 institution during the last five years{" "}
               </p>
               <ul>
                 <li>
-                  <p className="text-left  text-lg text-black">
+                  <p className="text-left text-lg text-black">
                     MLR Institute of Technology strives to make industry ready
                     students through various courses offered under different
                     programs. Revision in syllabus of various courses and
@@ -228,12 +227,14 @@ const Criterion1 = () => {
                 </li>
 
                 <li>
-                  <p className="text-left  text-lg font-bold text-black">
+                  <p className="text-left text-lg font-bold text-black">
                     1.1.3.1 Number of courses having focus on employability/
                     entrepreneurship/ skill development year-wise during the
                     last five years
                   </p>
-                  <Crit1_1_1table />
+                  <div className="table">
+                    <Crit1_1_1table />
+                  </div>
                 </li>
                 <a
                   href="/"
