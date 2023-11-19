@@ -31,80 +31,10 @@ const Criterion1 = () => {
               <ul>
                 <li>
                   <p className="text-left  text-lg text-black">
-                    MLR Institute of Technology emphasizes on the developmental
-                    needs at the local/national/global levels with formative
-                    necessities unblemished while planning its curriculum. The
-                    learning process manoeuvres through result based
-                    instructional methods, with each course having a port of
-                    call which in turn is being driven by a well conceived
-                    mission and vision. The educational program is planned on
-                    after premise.{" "}
+                    MLR Institute of Technology ernphasizes on the clevelopmental needs at the local/national/global levels with formative necessities unblemished while planning its curriculum. The learning process manoeuvres through resull based instructional methods, with each course having a port of call which in turn is being driven by a well conceived mission and vision. T'he educational program is planned on after premise.
                   </p>
                 </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    Curriculum maintains the balance in the composition of Basic
-                    Science, Engineering Sciences, Humanities and Social
-                    Sciences, Program Core, Program Electives, Open Electives,
-                    Projects Work and Employability Enhancement.{" "}
-                  </p>
-                </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    Program Assessment Committee (PAC) coordinator takes the
-                    inputs from Domain Experts to identify the imperative inputs
-                    received from the stakeholders and prepares the flowchart
-                    through which their inputs can be inculcated in the
-                    curriculum.
-                  </p>
-                </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    Curriculum is designed in line with guidelines of the
-                    program specific criteria set-up by lead societies like
-                    American Institute of Aeronautics and Astronautics (AIAA),
-                    ASME, CSI, IEEE etc,.{" "}
-                  </p>
-                </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    The curriculum is designed keeping the AICTE model
-                    curriculum as a base reference of UG (B.Tech) in Information
-                    Technology Program. The Choice Based Credit System (CBCS)
-                    incorporated in the Curriculum provides an opportunity for
-                    the students to choose courses from the prescribed courses
-                    comprising core, elective or skill based courses.
-                  </p>
-                </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    In further improving the existing curriculum for bridging
-                    the gaps, the feedback from the students, alumni, faculty,
-                    recruiters and industry experts is collected and sorted for
-                    continuous improvement besides, the structure of the course
-                    offered by IITs and other National & International
-                    Universities is thoroughly studied.{" "}
-                  </p>
-                </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    While designing the curriculum, the institution lays
-                    emphasis on developing conceptual skills, human skills and
-                    technical skills of the individual. It is ensured that the
-                    overall curriculum and its components contribute effectively
-                    in the attainment of POs, PSOs and PEOs which in turn relate
-                    to the Vision and Mission of the Department and institute as
-                    well. The initial version of the curriculum is prepared by
-                    having the above design criteria, through discussions with
-                    stakeholders. The proposed curriculum is then discussed in
-                    DAC (Department Academic Committee) and is put forth to BOS
-                    (Board of Studies) where the experts from industry,
-                    academia, Alumni in addition to senior faculty members. The
-                    curriculum is then placed for approval during the Academic
-                    Council (AC). Curriculum is finally evolved and published in
-                    MLR Institute of Technology.{" "}
-                  </p>
-                </li>
+                
                 <a
                   href="/criterion1/1.1/1.1.1/claimform.pdf"
                   className="w-full  text-left flex"
@@ -131,30 +61,12 @@ const Criterion1 = () => {
               <ul>
                 <li>
                   <p className="text-left  text-lg text-black">
-                    MLR Institute of Technology responds to the dynamic needs of
-                    the society by bringing in changes as per the needs of the
-                    stakeholders and the domain in terms of curriculum and
-                    revisions. Feedback is collected from the stakeholders and
-                    based on the needs analysis, syllabus revision is carried
-                    out in programs offered by the Institution. It is done as
-                    per a well laid down Standard Operating Procedure. Changes
-                    in the syllabus are made frequently in all programmes in
-                    order to meet the national and global needs.{" "}
+                    
+                  MLR Institute of Technology strives to make industry ready students through various courses offered under different programs. Revision in syllabus of various courses and introduction of new prograrns is caused by the action taken on the feedback provicleci by different stakeholders. The Programmes are designed to nurture various skills among the students. The courses are designed with a view to build employability, entrepreneurship and skill development among the students. The syllabus is framed to cultivate research culture in young minds by including all cutting-edge technologies and hands on practices.                  
                   </p>
                 </li>
-                <li>
-                  <p className="text-left  text-lg text-black">
-                    MLR Institute of Technology offers 17 programs and has
-                    changed syllabus/ curriculum for 12 programs in the last
-                    five years out of the total 17 offered programs in the last
-                    five years. Thus 70.59% of programs have undergone revision
-                    in the last five years. Out of 17 Programmes 4 programmes
-                    were introduced during Academic Year 2020-2021 and 1
-                    Programme was introduced during Academic Year 2021-2022, the
-                    same is mentioned in the Data Template.
-                  </p>
-                </li>
-                <li>
+                
+                {/* <li>
                   <p className="text-left  text-xl text-blue-500 font-extrabold">
                     Response: 70.59{" "}
                   </p>
@@ -180,7 +92,7 @@ const Criterion1 = () => {
                   <p className="text-left text-xl text-blue-500 font-extrabold">
                     Response: 17
                   </p>
-                </li>
+                </li> */}
                 <a
                   href="/criterion1/1.1/1.1.2/claimform.pdf"
                   className="w-full  text-left"
